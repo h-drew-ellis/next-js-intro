@@ -52,7 +52,6 @@ export async function getPostData(id) {
     const contentHtml = processedContent.toString();
     return {
         id,
-        contentHtml,
         ...matterResult.data
     }
 }
